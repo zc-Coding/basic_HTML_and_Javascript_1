@@ -38,3 +38,36 @@ p {
     background: rgba(0, 0, 0, .5);
 }
 
+.white-head {
+    color: #C9BDAA;
+    margin: 5%;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.photo-overlay {
+    opacity: 0;
+    transition: opacity .1s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo-overlay p {
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+
+.photo-overlay:hover {
+    opacity: 1;
+}
+
+.photo img {
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo:hover img {
+    transform: scale(1.1)
+}
+
