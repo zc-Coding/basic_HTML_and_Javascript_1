@@ -17,4 +17,14 @@
 	p {
 		text-shadow: .5px .5px blue;
 	}
+
+	ol {
+		list-style: armenian;
+		color: seagreen;
+	}
+
+	ul {
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-style: italic;
+	}
 	
